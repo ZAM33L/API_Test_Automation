@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Reports
+mochawesome-report/
+reports/
+playwright-report/
+test-results/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Coverage
+coverage/

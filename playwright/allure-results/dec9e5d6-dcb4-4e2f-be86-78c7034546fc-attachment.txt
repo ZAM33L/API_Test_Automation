@@ -1,0 +1,31 @@
+========== POST ==========
+{
+  bookingid: 3674,
+  booking: {
+    firstname: 'jameel',
+    lastname: 'asfer',
+    totalprice: 1000,
+    depositpaid: true,
+    bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+    additionalneeds: 'book wrappers'
+  }
+}
+========= GET ===========
+{
+  firstname: 'jameel',
+  lastname: 'asfer',
+  totalprice: 1000,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'book wrappers'
+}
+========== PATCH =========
+token number is :  23f10cad10edfc6
+{
+  firstname: 'md jameel',
+  lastname: 'asfer',
+  totalprice: 1000,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'book wrappers'
+}

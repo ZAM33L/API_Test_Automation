@@ -1,0 +1,11 @@
+{
+  bookingid: 3682,
+  booking: {
+    firstname: 'Nettie',
+    lastname: 'Runte',
+    totalprice: 231,
+    depositpaid: true,
+    bookingdates: { checkin: '2026-03-11', checkout: '2026-03-16' },
+    additionalneeds: 'book wrappers'
+  }
+}

@@ -1,0 +1,31 @@
+========== POST ==========
+{
+  bookingid: 3688,
+  booking: {
+    firstname: 'jameel',
+    lastname: 'asfer',
+    totalprice: 1000,
+    depositpaid: true,
+    bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+    additionalneeds: 'book wrappers'
+  }
+}
+========= GET ===========
+{
+  firstname: 'jameel',
+  lastname: 'asfer',
+  totalprice: 1000,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'book wrappers'
+}
+========== PUT =========
+token number is :  fc1c89aeed06273
+{
+  firstname: 'mohammed jameel',
+  lastname: 'asfer z',
+  totalprice: 1000,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'super bowl'
+}

@@ -1,0 +1,14 @@
+{
+  bookingid: 3658,
+  booking: {
+    firstname: 'lena',
+    lastname: 'tamil',
+    totalprice: 1000,
+    depositpaid: true,
+    bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+    additionalneeds: 'superbowls'
+  }
+}
+====================
+[ { bookingid: 3658 } ]
+====================
